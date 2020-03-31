@@ -1,0 +1,14 @@
+# Clang Format settings
+#######################
+
+# Basic formatting
+BasedOnStyle: Google
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 100
+Language: Cpp
+# Targeting C++17
+# Standard: c++11
+
+# Always break on {
+BreakBeforeBraces: Allman
