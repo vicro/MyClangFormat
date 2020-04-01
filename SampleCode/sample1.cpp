@@ -44,6 +44,17 @@ int main()
                 .speed(20.f)
                 .active(false);
 
+    // The following code will not be formatted
+    // clang-format off
+    Widget y = WidgetCreate("My Widget again")
+                .index(10)
+                .active(true)
+                .speed(10.f);
+    Widget z = WidgetCreate("Another Widget again")
+                .speed(20.f)
+                .active(false);
+    // clang-format on
+
     cout << "Name " << w.getName() << "\n"; //Print out the name
     cout << "Index " << w.getIndex() << "\n"; //Print out the index
     cout << "Active " << w.getActive() << "\n"; //Print out if Active
